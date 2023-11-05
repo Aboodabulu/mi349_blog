@@ -3,7 +3,10 @@ html {
 }
 
 header {
+    position: sticky;
+    top: 2px;
     background: rgb(107, 114, 107);
+    opacity: 70%;
     padding: 20px;
     border-radius: 30px;
     color: white;
@@ -44,4 +47,24 @@ p {
     color: #422d21;
     font-weight: bold;
     margin-top: 15px;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.insectpic {
+    float: left;
+    width: 40%;
+    height: 30%;
+    margin-right: 20px;
+}
+
+.mammalpic {
+    float: left;
+    width: 25%;
+    height: 25%;
+    margin-right: 20px;
 }
