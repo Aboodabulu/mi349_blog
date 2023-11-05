@@ -1,9 +1,9 @@
 html {
-    background: white;
+    background: rgb(116, 95, 71);
 }
 
 header {
-    background: rgb(102, 124, 102);
+    background: rgb(107, 114, 107);
     padding: 20px;
     border-radius: 30px;
     color: white;
@@ -27,7 +27,7 @@ body {
     margin: 50px;
 }
 
-section{
+#blog-post{
     padding: 30px;
 }
 
@@ -36,7 +36,7 @@ p {
     line-height: 1.3em;
 }
 
-h3 {
+.post {
     border-top: black 5px solid;
 }
 
