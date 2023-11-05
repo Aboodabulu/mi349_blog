@@ -1,10 +1,47 @@
+html {
+    background: white;
+}
+
+header {
+    background: rgb(102, 124, 102);
+    padding: 20px;
+    border-radius: 30px;
+    color: white;
+    font-weight: bold;
+}
+
+h1 {
+    font-size: 35px;
+}
+
+.NavTitle {
+    font-size: 20px;
+}
+
 body {
     font-family: 'Times New Roman', Times, serif;
-    background-color: #c7a68b;
-    color: antiquewhite;
+    background: #e0d3bb;
+    padding: 40px;
+    border-radius: 60px;
+    color: black;
     margin: 50px;
 }
 
-#post1 {
-    border-top: 5px solid;
+section{
+    padding: 30px;
+}
+
+p {
+    color: #3d3c3c;
+    line-height: 1.3em;
+}
+
+h3 {
+    border-top: black 5px solid;
+}
+
+.author, .date {
+    color: #422d21;
+    font-weight: bold;
+    margin-top: 15px;
 }
