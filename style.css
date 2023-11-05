@@ -1,0 +1,10 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #c7a68b;
+    color: antiquewhite;
+    margin: 50px;
+}
+
+#post1 {
+    border-top: 5px solid;
+}
