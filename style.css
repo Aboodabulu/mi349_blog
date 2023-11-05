@@ -27,6 +27,7 @@ body {
     padding: 70px;
     border-radius: 60px;
     color: black;
+    font-size: 20px;
     margin: 50px;
 }
 
@@ -41,6 +42,7 @@ p {
 
 .post {
     border-top: black 5px solid;
+    margin-top: 20px;
 }
 
 .author, .date {
@@ -67,4 +69,79 @@ section {
     width: 25%;
     height: 25%;
     margin-right: 20px;
+}
+
+.extinction-table {
+padding-top: 60px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: fixed;
+  }
+  
+  th {
+    background-color: #8b816d;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    border: 1px solid #a8a8a8;
+  }
+  
+  td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #a8a8a8;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  tr:nth-child(odd) {
+    background-color: #ffffff;
+  }
+
+.mypic {
+    width: 20%;
+    height: auto;
+    padding: 30px;
+    float: left;
+}
+
+#aboutpg {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+.intro {
+    color: #3d3c3c;
+}
+
+figure {
+    color: #3d3c3c;
+    position: absolute;
+    top: 200px;
+    left: 20%;
+    width: calc(80% - 60px);
+}
+
+.figtitle {
+    color: black;
+}
+
+form label,
+form input,
+form select,
+form textarea,
+form button {
+    display: block;
+    width: 20%;
+    margin-bottom: 15px;
+}
+
+form input, form select, form textarea, form button {
+    margin-top: 5px;
 }
